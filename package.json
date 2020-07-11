@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://pushparmar.github.io/chatapp",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
