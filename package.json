@@ -1,8 +1,8 @@
 {
   "name": "chatapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "aa",
+  "main": "server.js",
   "homepage": "https://github.com/pushparmar/chatapp",
   "dependencies": {
     "express": "^4.17.1",
@@ -15,10 +15,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "react-scripts build"
+    "dev": "nodemon server"
   },
-  "author": "",
+  "author": "me",
   "license": "ISC"
 }
